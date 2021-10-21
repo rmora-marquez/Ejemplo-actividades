@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.EjemploActividades">
         <activity
+            android:name=".RaizActivity"
+            android:exported="false" />
+        <activity
             android:name=".SumaActivity"
             android:exported="true">
             <intent-filter>
